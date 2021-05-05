@@ -1,0 +1,109 @@
+body {
+margin-top: 5px;
+  margin-left: 0;
+  text-align: center; <!-- centruje elementy obrazkowe na calej stronie-->
+  margin: auto;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 150%;
+background-color: #e3fdfd
+}
+h1 {
+  margin: 50px auto 50px auto;
+    font-family: 'Sacramento', cursive;
+font-size: 4rem;
+color:#66BFBF;
+
+}
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2,5rem;
+color:#66BFBF;
+}
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+color: #11999E;
+}
+
+.top-container {
+margin:0 auto 0 auto; <!-- centruje elementy gora prawo dol lewo
+background-color: #e3fdfd  ;
+width: 600px;
+height: 200px;
+border-color: blue;
+border-width: 10px;
+borsder:solid 2px;
+padding-top: 50px;
+padding-bottom: 100;
+position: relative;
+
+
+/*display: inline-block; */
+
+}
+.chmurkaGora {
+  backsground-color: yellow;
+  position: relative;
+margin: auto;
+left: 350px;
+}
+.chmurkaDol {
+  position :absolute;
+  margin:auto;
+  left: 200px;
+  top: 400px;
+}
+.middle-container {
+
+}
+.bottom-containter  {
+
+/*    position: relative; /* oznacza gdzie element byłby względem poprzedniej pozycji, względem static position. */
+  /*  display:inline-block;*/
+/*    left: 400px;
+    bottom: 300px; */
+}
+
+
+.PRO {
+  text-decoration: wavy underline red ;
+  }
+span {
+    background-color: pink;
+    /*display: block; */
+    width: 200px; /* span nie reaguje na width*/
+  }
+p {
+  display: inline-block; /* wyswietla p jak span ALE daje możliwość manewrowania width  */
+  backgrosund-color: gold;
+  width: 400px;
+}
+.PROgrammestssts {
+  visibility: hidden;
+  background-color: navy;
+}
+.footer-link {
+ color: #11999E;
+}
+.pro-linijka {
+  font-weight: 600;
+  line-height: =2;
+}
+.skill-row {
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  margin: 100px auto;
+
+  }
+  .SRimg1 {
+    width: 33%;
+    float: left;
+    padding-right: 30px;
+
+  }
+  .SRimg2 {
+    width: 33%;
+    float: right;
+    padding-right: 30px;
+  }
