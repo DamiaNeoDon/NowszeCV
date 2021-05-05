@@ -1,109 +1,232 @@
 body {
-margin-top: 5px;
+  margin-top: 5px;
   margin-left: 0;
-  text-align: center; <!-- centruje elementy obrazkowe na calej stronie-->
-  margin: auto;
-font-family: 'Open Sans Condensed', sans-serif;
-font-size: 150%;
-background-color: #e3fdfd
+  text-align: center;
+  < !-- centruje elementy obrazkowe na calej stronie-->margin: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  background-color: #e3fdfd
 }
+
 h1 {
   margin: 50px auto 50px auto;
-    font-family: 'Sacramento', cursive;
-font-size: 4rem;
-color:#66BFBF;
-
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #66BFBF;
 }
+
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2,5rem;
-color:#66BFBF;
+  font-size: 2, 5rem;
+  color: #66BFBF;
 }
+
 h3 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2rem;
-color: #11999E;
+  color: #11999E;
 }
 
 .top-container {
-margin:0 auto 0 auto; <!-- centruje elementy gora prawo dol lewo
-background-color: #e3fdfd  ;
-width: 600px;
-height: 200px;
-border-color: blue;
-border-width: 10px;
-borsder:solid 2px;
-padding-top: 50px;
-padding-bottom: 100;
-position: relative;
-
-
-/*display: inline-block; */
-
+  margin: 0 auto 0 auto;
+  < !-- centruje elementy gora prawo dol lewo background-color: #e3fdfd;
+  width: 600px;
+  height: 200px;
+  border-color: blue;
+  border-width: 10px;
+  borsder: solid 2px;
+  padding-top: 50px;
+  padding-bottom: 100;
+  position: relative;
+  /*display: inline-block; */
 }
+
 .chmurkaGora {
   backsground-color: yellow;
   position: relative;
-margin: auto;
-left: 350px;
+  margin: auto;
+  left: 377px;
+  top: 10px;
 }
+
 .chmurkaDol {
-  position :absolute;
-  margin:auto;
-  left: 200px;
-  top: 400px;
+  position: absolute;
+  margin: auto;
+  left: 223px;
+  top: 354px;
 }
-.middle-container {
 
-}
-.bottom-containter  {
+.middle-container {}
 
-/*    position: relative; /* oznacza gdzie element byłby względem poprzedniej pozycji, względem static position. */
+.bottom-containter {
+  background-color: #66BFBF;
+padding: 50px 0 30px;
+  /*    position: relative; /* oznacza gdzie element byłby względem poprzedniej pozycji, względem static position. */
   /*  display:inline-block;*/
-/*    left: 400px;
+  /*    left: 400px;
     bottom: 300px; */
 }
 
-
 .PRO {
-  text-decoration: wavy underline red ;
-  }
-span {
-    background-color: pink;
-    /*display: block; */
-    width: 200px; /* span nie reaguje na width*/
-  }
-p {
-  display: inline-block; /* wyswietla p jak span ALE daje możliwość manewrowania width  */
-  backgrosund-color: gold;
-  width: 400px;
+  text-decoration: wavy underline red;
 }
+
+span {
+  background-color: pink;
+  /*display: block; */
+  width: 200px;
+  /* span nie reaguje na width*/
+}
+
+p {
+  display: inline-block;
+  /* wyswietla p jak span ALE daje możliwość manewrowania width  */
+  backgrosund-color: gold;
+  width: 600px;
+}
+
 .PROgrammestssts {
   visibility: hidden;
   background-color: navy;
 }
+
 .footer-link {
- color: #11999E;
+  color: #11999E;
 }
+
 .pro-linijka {
   font-weight: 600;
   line-height: =2;
 }
+
 .skill-row {
   width: 50%;
   text-align: left;
   line-height: 2;
   margin: 100px auto;
+  width: 600px;
+}
 
-  }
-  .SRimg1 {
-    width: 33%;
-    float: left;
-    padding-right: 30px;
+.SRimg1 {
+  width: 40%;
+  float: right;
+  padding-left: 30px;
+}
 
-  }
-  .SRimg2 {
-    width: 33%;
-    float: right;
-    padding-right: 30px;
-  }
+.SRimg2 {
+  width: 40%;
+  float: left;
+  padding-right: 30px;
+}
+
+.opisSoft {
+  clear: right;
+  margin-top: 30px;
+}
+
+.opisHard {
+  clear: left;
+  margin-top: 30px;
+}
+
+.H3skillePushRight {
+  margin-left: 480px;
+}
+
+.H3hard {
+  maargin-left: 500px;
+}
+
+hr {
+  color: #EAF6F6;
+  align-self: center;
+  border-style: dotted;
+  border-color: #cbf1f5;
+  border-width: 10px;
+  border-bottom: 0;
+  width: 100px;
+}
+
+.WhitePower {
+  color: white;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+a {
+  font-stretch: expanded;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.BUTTON_WYO {
+  padding: 50px;
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 40px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_WYO {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_WYO:hover {
+   border: solid #337FED 0;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #11CDD4);
+   background-image: -moz-linear-gradient(top, #11999E, #11CDD4);
+   background-image: -ms-linear-gradient(top, #11999E, #11CDD4);
+   background-image: -o-linear-gradient(top, #11999E, #11CDD4);
+   background-image: -webkit-gradient(to bottom, #11999E, #11CDD4);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
